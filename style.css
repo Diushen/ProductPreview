@@ -36,6 +36,8 @@ main{
     border-radius: 10px;
     overflow: hidden;
     max-width: 600px;
+    align-items: center;
+    ustify-content: center;
 }
 
 .PictureContainer{
@@ -59,10 +61,12 @@ main{
     opacity: 0.5;
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .title {
     font-family: 'Fraunces', serif;
+    font-weight: 700;
     font-size: 30px;
     margin-right: 15px;
 }
@@ -85,6 +89,7 @@ main{
     display: inline-block;
     font-size: 30px;
     font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
 }
 
 .MinorPrice {
@@ -103,7 +108,7 @@ main{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     opacity: .5;
-
+    
 }
 
 .button{
@@ -111,6 +116,18 @@ main{
     height: 50px;
     border-radius: 10px;
     border-style: none;
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color:  hsl(158, 38%, 21%) ;
+}
+
+.fa-solid {
+     margin-right: 15px;
 }
 
 footer{
